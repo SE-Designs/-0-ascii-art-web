@@ -1,0 +1,16 @@
+TODO:
+1) Add ascii-art program to our website (app.go) [DONE]
+2) Bootstrap + CSS (responsive website redesign) [DONE]
+    2.1) 
+3) (Optional) JS instant print no-button (with flag) [SUSPENDED TILL NEXT PROJECT]
+4) Add status code responses
+5) fix html/css
+6) (Optional) filesystem cleaning
+7) Create server with an object
+
+
+FEATURES:
+1) highlighted buttons 
+2) fixed input block size
+3) fixed output block size
+4) change of output line if too long input

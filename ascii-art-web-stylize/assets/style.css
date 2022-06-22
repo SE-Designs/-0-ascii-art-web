@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+    font-weight: bolder;
+}
+
+.wrapper, .head, .body, .bottom, .outline {
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px;
+    color: white
+}
+
+.wrapper {
+    background: #0575E6;  /* fallback for old browsers */
+    background: -webkit-radial-gradient(#021B79, #0575E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: radial-gradient(#021B79, #0575E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    height: 94vh;
+    min-height: 980px;
+}
+
+.head {
+    background-color: navy;
+    float: left;
+    width: 90%;
+    margin: 10px 5vw;
+}
+
+.body {
+    background-color: midnightblue;
+    float: left;
+    width: 90%;
+    margin: 10px 5vw;
+}
+
+.bottom {
+    background-color: aliceblue;
+    padding: 5px;
+    /* background-blend-mode: overlay; */
+    float: left;
+    width: 90%;
+    height: 50%;
+    min-height: 100px;
+    margin: 10px 5vw;
+}
+
+/* important is used to rewrite the bootstrap css */
+
+textarea {
+    border-color: aqua !important; 
+    border-width: 2px !important;
+    resize: none;
+}
+
+a {
+    color:aliceblue !important;
+}
+
+.submit {
+    color: #2e2e2e !important;
+}
+
+.result-area {
+    background: #2e2e2e url("/assets/back.jpg") repeat-x right top;
+    background-size: 3840px;
+    background-position-x: center;
+    background-position-y: center;
+    /* background-blend-mode: darken; */
+
+    height: 100%;
+    border-radius: 10px;
+    padding: 15px;
+    
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+.results {
+    margin: 0 25px;
+}
+
+/* shadow not working */
+.log {
+    z-index: 1;
+    text-shadow: #021B79 1px 0 10px;
+}
+
+.outline {
+    background-color: dodgerblue;
+}
+
+.headline {
+    font-family: monospace, Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    text-align: center;
+}
+
+.last {
+    font-family: monospace, Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+}
+
+h3:hover {
+    color: aqua;
+    cursor: pointer;
+}
+
+.wrapper:after {
+    content: '';
+    display: block;
+    clear: both;
+}
